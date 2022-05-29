@@ -1,0 +1,143 @@
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+    
+}
+
+
+header{
+    width: auto;
+    height: 100vh;
+    background:linear-gradient(rgba(0, 0, 0, 0.7),rgba(0,0,0,0.7)) ,url(img/portfolio.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+
+.navbar-brand{
+  
+    font-weight: 600;
+}
+
+
+ .auto-type{
+   font-weight: 800;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color:yellow;
+    
+}
+.h-text{
+    color:rgb(218, 218, 233);
+   
+    max-width: 700px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+}
+.container1 .home
+{
+    width: 100%;
+    height: 100vh;
+   
+    color:white;
+}
+
+
+
+.container h2{
+    font-size: 3rem;
+    font-weight:300;
+
+}
+ .auto-type
+{
+    color: #a4c3c7;
+    font-size: 2rem;
+}
+
+h3{
+font-family: 'Dancing Script', cursive;
+
+}
+.my-img img{
+    border-radius: 10px;
+}
+
+.link-section a{
+    text-decoration:none;
+    padding: 5px;
+    color: white;
+}
+.link-section button{
+    background-color:#FF305B;
+    
+    border-radius: 5px;
+}
+.messagecontainer div{
+    margin-left: 20%;
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+   
+}
+
+#submitButton{
+    
+    background-color:#FF305B;
+    width: 90px;
+    height: 40px;
+    border-radius: 8px;
+    color: #d3d3d3;
+}
+#submitButton:hover{
+    background-color: #3399ff;
+}
+button:hover{
+    background-color: #3399ff;
+}
+
+footer{
+    width: auto;
+    height: 300px;
+    background:linear-gradient(rgba(0,0,0,0.9),rgba(0,0,0,0.7)),url(img/footer.jpg);
+    background-position: center;
+       background-attachment: fixed;
+       background-size: cover;
+       background-repeat: no-repeat;
+      color: #888;
+      
+}
+
+.links ul{
+    list-style: none;
+    display: flex;
+    text-align: center;
+    padding-top: 3rem;
+}
+.links ul li{
+    padding-left: 3rem;
+    display: inline-block;
+    
+}
+
+
+.footer-bottom{
+    text-align: center;
+    
+    bottom: 0px;
+    left: 0px;
+    padding-top:9rem;
+
+}
+
+
